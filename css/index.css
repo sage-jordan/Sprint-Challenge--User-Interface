@@ -172,3 +172,33 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+#one {
+    background-color: teal;
+}
+#two {
+    background-color: gold;
+}
+#three {
+    background-color: cadetblue;
+}
+#four {
+    background-color: coral;
+}
+#five {
+    background-color: crimson;
+}
+#six {
+    background-color: forestgreen;
+}
+#seven {
+    background-color: darkorchid;
+}
+#eight {
+    background-color:hotpink;
+}
+#nine {
+    background-color: indigo;
+}
+#ten {
+    background-color: dodgerblue;
+}

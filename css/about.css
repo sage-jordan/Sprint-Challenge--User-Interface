@@ -54,9 +54,13 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+
 }
 
-/* My code starts here! */
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
 
 .header {
     display: flex;
@@ -81,9 +85,6 @@ nav a {
 }
 
 
-
-/* My code ends here! */
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -94,64 +95,39 @@ p {
     line-height: 1.4;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
-
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.about {
+    padding-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.mid-content {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.content {
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.content h2 {
+    padding: 2% 0;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
+button {
+    padding: 3% 7%;
+    margin: 3% 0;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+    padding: 3% 2%;
 }
 
 footer {
@@ -171,34 +147,4 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
-#one {
-    background-color: teal;
-}
-#two {
-    background-color: gold;
-}
-#three {
-    background-color: cadetblue;
-}
-#four {
-    background-color: coral;
-}
-#five {
-    background-color: crimson;
-}
-#six {
-    background-color: forestgreen;
-}
-#seven {
-    background-color: darkorchid;
-}
-#eight {
-    background-color:hotpink;
-}
-#nine {
-    background-color: indigo;
-}
-#ten {
-    background-color: dodgerblue;
 }
